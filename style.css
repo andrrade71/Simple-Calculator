@@ -3,3 +3,50 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333333;
+}
+
+#calculator-body {
+    padding: 20px;
+    border: 1px solid #666666;
+    border-radius: 8px;
+    background-color: #444444;
+}
+
+#display {
+    text-align: right;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #222222;
+    border: 1px solid #444444;
+    color: white;
+}
+
+button {
+    background-color: #555555;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+.operator {
+    background-color: #f3740c;
+}
+
+#clear {
+    background-color: rgb(43, 42, 42);
+}
+
+#equals {
+    background-color: rgb(43, 42, 42);
+}
