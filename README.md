@@ -30,9 +30,5 @@ A straightforward web-based calculator built using fundamental web technologies 
 * Improve error handling and display messages more elegantly than `alert()`.
 * Refactor JavaScript code (e.g., using classes or modules) for better organization, especially if adding more features.
 
-## Author
-
-* **[Vitor Andrade]**
-
 ## License
 
