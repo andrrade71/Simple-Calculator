@@ -10,3 +10,7 @@ numberButtons.forEach(function(itemdaLista) {
         displayElement.value += numeroClicado;
     });
 });
+
+clearButton.addEventListener('click', function() {
+displayElement.value = '';
+});
